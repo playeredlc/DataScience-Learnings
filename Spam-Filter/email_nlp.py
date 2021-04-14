@@ -9,12 +9,12 @@ def clean_message(message, stemmer=PorterStemmer(), stop_words=stopwords.words('
 	"""
 		Applies basic NLP workflow in the email message:
 		Strips out HTML tags, tokenize, remove stop words, word stemming and remove punctuation.
-		Returns a clean set of tokens.
+		Returns a clean list of tokens.
 
 		Args:
-			clean_message	: The message to be processed and cleaned.
-			stemmer 		: The stem method to be used. Default is PorterStemmer().
-			stop_words		: The stop words list to use. Default is stopwords.words('english') from NLTK.
+			clean_message : The message to be processed and cleaned.
+			stemmer : The stem method to be used. Default is PorterStemmer().
+			stop_words : The stop words list to use. Default is stopwords.words('english') from NLTK.
 
 	"""
 
@@ -22,10 +22,12 @@ def clean_message(message, stemmer=PorterStemmer(), stop_words=stopwords.words('
 	soup = BeautifulSoup(message, 'html.parser')
 	message = soup.get_text()
 	
-	tokens = set(word_tokenize(message.lower())) # lower + tokenize
-	tokens = tokens.difference(set(stop_words))	# remove stop words
-	tokens = [stemmer.stem(token) for token in tokens] # word stemming
-	tokens = set(filter(lambda token: token.isalpha(), tokens)) # remove punctuation
+	tokens = word_tokenize(message.lower()) # lower + tokenize
+	clean_tokens = []
+	
+	for token in tokens:
+		if token not in stop_words and token.isalpha(): # remove stop words and punctuation
+			clean_tokens.append(stemmer.stem(token)) # apply word stemming and append to the cleaned array
 
-	return tokens
+	return clean_tokens
 
