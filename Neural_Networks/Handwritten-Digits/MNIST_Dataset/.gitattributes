@@ -1,0 +1,4 @@
+digit_xtrain.csv filter=lfs diff=lfs merge=lfs -text
+digit_ytest.csv filter=lfs diff=lfs merge=lfs -text
+digit_ytrain.csv filter=lfs diff=lfs merge=lfs -text
+digit_xtest.csv filter=lfs diff=lfs merge=lfs -text
