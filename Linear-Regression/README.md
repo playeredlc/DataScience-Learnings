@@ -22,9 +22,10 @@ This is implemented by the LinearRegression module from scikitlearn used in the 
 MLR is essencially an extension of simple linear regression because it involves multiple explanatory variables or features. The linear relationship between the features and target still need to exist in multivariable regression but the independent variables shouldn't be highly correlated with each other.
 
 <br>
-<strong>[House Prices Prediction Model](https://github.com/playeredlc/DataScience-Learnings/blob/master/Linear-Regression/House-Prices-Prediction/house_prices_multivar_regression.ipynb)</strong>. [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/playeredlc/DataScience-Learnings/blob/master/Linear-Regression/House-Prices-Prediction/house_prices_multivar_regression.ipynb)<br>
 
-The MLR  technique is implemented in the [House prices prediction model](https://github.com/playeredlc/DataScience-Learnings/tree/master/Linear-Regression/House-Prices-Prediction) which initially had 12 explanatory variables used to predict the house price.
+<strong>[House Prices Prediction Model](https://github.com/playeredlc/DataScience-Learnings/blob/master/Linear-Regression/House-Prices-Prediction/house_prices_multivar_regression.ipynb).</strong>
+
+The MLR  technique is implemented in the [House prices prediction model](https://github.com/playeredlc/DataScience-Learnings/tree/master/Linear-Regression/House-Prices-Prediction) which initially had 12 explanatory variables used to predict the house price. [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/playeredlc/DataScience-Learnings/blob/master/Linear-Regression/House-Prices-Prediction/house_prices_multivar_regression.ipynb)
 
 Several tests where made to analyze the impact of each variable in the model such as the VIF (Variance Inflation Factor) to find strongly correlated variables, the p-value evaluation to understand the explanatory power of each coefficient, residual analysis, as well as different types of data visualization.
 
