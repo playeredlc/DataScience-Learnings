@@ -1,1 +1,2 @@
 Spam-Filter/spam-data/test-features.txt filter=lfs diff=lfs merge=lfs -text
+Naive-Bayes/Spam-Filter/spam-data/test-features.txt filter=lfs diff=lfs merge=lfs -text
