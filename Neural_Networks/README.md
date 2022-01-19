@@ -10,9 +10,12 @@ To each of its incoming connections, a particular node will assign a number call
 
 The weights and thresholds are initially set as random values and during the training process these values are continually adjusted in complex ways, until data that belong to the same classes consistently yield similar outputs.
 
+## Multilayer Perceptron
+### Image Recognition
 The [Multilayer Perceptron notebook](https://github.com/playeredlc/DataScience-Learnings/blob/master/Neural_Networks/Multilayer-Perceptron/mlp_image_classification.ipynb) implements a MLP to recognize images from the [CIFAR10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html). A Multilayer Perceptron is one well-known approach to implement a neural network, it has a bi-directional propagation, where in the forward propagation the inputs and weights are multiplied as described above, and in backpropagation the weights self-adjust to reduce the loss.
 The model was defined and trained using [Keras](https://keras.io/), [Tensorboard](https://www.tensorflow.org/tensorboard) and other visual tools were used to analyze and evaluate the results. Unfortunately, the model's performance was not the expected, which indicates that a multilayer perceptron is not the best choice for this kind of problem. [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/playeredlc/DataScience-Learnings/blob/master/Neural_Networks/Multilayer-Perceptron/mlp_image_classification.ipynb)
 
+### Handwritten Digits Recognition
 To grasp the concepts of [Tensorflow](https://www.tensorflow.org/), another neural network was implemented and trained to recognize handwritten digits, this one without the assistance of [Keras](https://keras.io/). The implementation can be found in the [Handwritten Recognition notebook](https://github.com/playeredlc/DataScience-Learnings/blob/master/Neural_Networks/Handwritten-Digits/handwritten_recognition.ipynb) and a great performance was achieved. [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/playeredlc/DataScience-Learnings/blob/master/Neural_Networks/Handwritten-Digits/handwritten_recognition.ipynb)
 
 In the past years, the best-performing AI systems, such as the speech recognizers on smartphones,
