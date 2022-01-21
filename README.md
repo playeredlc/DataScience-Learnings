@@ -11,7 +11,7 @@
 </div>
 
 ### About
-The purpose of this repository is to keep together projects developed during my Data Science and Machine Learning journey. Thus, it does not contain a single project and folders may be not related with each other at all. These projects have the intention to cover some of the fundamental concepts and techniques known in this field.
+The purpose of this repository is to keep together projects developed during my Data Science and Machine Learning study journey. Thus, it does not contain a single project and folders may be not related with each other at all. These projects have the intention to cover some of the fundamental concepts and techniques known in this field.
 
 For the sake of comprehension each relevant topic has its own <i>Readme</i> file, which can be found browsing the directories in the root or following the table of content below.
 
