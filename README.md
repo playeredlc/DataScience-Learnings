@@ -6,7 +6,7 @@
 
 [About](#about)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 [Table of content](#table-of-content)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-[Tech](#technologies)
+[Tech](#technologies-/-frameworks-/-packages)
 
 </div>
 
