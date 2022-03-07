@@ -5,7 +5,7 @@
 <div align="center">
 
 [About](#about)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-[Table of content](#table-of-content)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+[Table of content](#table-of-contents)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 [Tech](#technologies--frameworks--packages)
 
 </div>
@@ -13,9 +13,9 @@
 ### About
 The purpose of this repository is to keep together projects developed during my Data Science and Machine Learning study journey. Thus, it does not contain a single project and folders may be not related with each other at all. These projects have the intention to cover some of the fundamental concepts and techniques known in this field.
 
-For the sake of comprehension each relevant topic has its own <i>Readme</i> file, which can be found browsing the directories in the root or following the table of content below.
+For the sake of comprehension each relevant topic has its own <i>Readme</i> file, which can be found browsing the directories in the root or following the table of contents below.
 
-### Table of content
+### Table of contents
 * [Linear Regression](https://github.com/playeredlc/DataScience-Learnings/tree/master/Linear-Regression#linear-regression)
 	* [Simple Linear Regression](https://github.com/playeredlc/DataScience-Learnings/tree/master/Linear-Regression#simple-linear-regression)
 	* [Multivariable Linear Regression](https://github.com/playeredlc/DataScience-Learnings/tree/master/Linear-Regression#multiple-linear-regression)
